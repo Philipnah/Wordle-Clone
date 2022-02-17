@@ -63,7 +63,7 @@ def Game():
 		# go through the guess array and append the correct things
 		for i in range(0, 5):
 			if userGuess[i] in mysteryWord:
-				answerToGuess.append("🟨")j
+				answerToGuess.append("🟨")
 			else:
 				answerToGuess.append("⬛")
 

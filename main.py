@@ -23,7 +23,6 @@ def FindNewWord(wordFile): # takes word file name, returns new word
 
 def Game():
 	mysteryWord = FindNewWord(answer_words_file)
-	print("word is " + mysteryWord)
 
 	# You have 6 guesses, so it loops 6 times
 	n = 0
@@ -64,7 +63,7 @@ def Game():
 		# go through the guess array and append the correct things
 		for i in range(0, 5):
 			if userGuess[i] in mysteryWord:
-				answerToGuess.append("🟨")
+				answerToGuess.append("🟨")j
 			else:
 				answerToGuess.append("⬛")
 

@@ -2,7 +2,6 @@ C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\bin
 C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.deps.json
 C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.runtimeconfig.json
 C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.dll
-C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\ref\Wordle_Clone.dll
 C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.pdb
 C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.csproj.AssemblyReference.cache
 C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.Main.resources
@@ -15,3 +14,4 @@ C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\obj
 C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\ref\Wordle_Clone.dll
 C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.pdb
 C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.genruntimeconfig.cache
+C:\Users\phili\Desktop\Git\Wordle-Clone\c#_version\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\refint\Wordle_Clone.dll

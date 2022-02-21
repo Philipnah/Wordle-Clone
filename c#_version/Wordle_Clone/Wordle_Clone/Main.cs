@@ -17,6 +17,7 @@ namespace Wordle_Clone {
 
 		string mysteryWord;
 		string currentGuess;
+		Color defaultColor = Color.FromKnownColor(KnownColor.Control);
 
 		int guessesLeft = 6;
 
@@ -29,7 +30,7 @@ namespace Wordle_Clone {
 #if DEBUG
 			Debug.WriteLine(mysteryWord);
 #endif
-
+			
 		}
 
 		private bool IsWordValid(string guessedWord, string acceptedWordsPath) { // This word file path should be the accepted words list
@@ -310,7 +311,120 @@ namespace Wordle_Clone {
 		}
 
         private void buttonNewWord_Click(object sender, EventArgs e) {
+			// resetting variables and buttons
+			guessesLeft = 6;
+			labelGuessesLeft.Text = "Guesses Left: " + guessesLeft.ToString();
+			labelRespone.Text = "";
 
-        }
+			textBoxGuess.Enabled = true;
+			buttonEnter.Enabled = true;
+			listBoxPreviousGuesses.Items.Clear();
+
+            // reset all button colors
+            #region
+            buttonA.BackColor = defaultColor;
+			buttonB.BackColor = defaultColor;
+			buttonC.BackColor = defaultColor;
+			buttonD.BackColor = defaultColor;
+			buttonE.BackColor = defaultColor;
+
+			buttonF.BackColor = defaultColor;
+
+			buttonG.BackColor = defaultColor;
+
+			buttonH.BackColor = defaultColor;
+
+			buttonI.BackColor = defaultColor;
+
+			buttonJ.BackColor = defaultColor;
+
+			buttonK.BackColor = defaultColor;
+
+			buttonL.BackColor = defaultColor;
+			
+			buttonM.BackColor = defaultColor;
+			
+			buttonN.BackColor = defaultColor;
+			
+			buttonO.BackColor = defaultColor;
+			 
+			buttonP.BackColor = defaultColor;
+			
+			buttonQ.BackColor = defaultColor;
+			 
+			buttonR.BackColor = defaultColor;
+			
+			buttonS.BackColor = defaultColor;
+			
+			buttonT.BackColor = defaultColor;
+			
+			buttonU.BackColor = defaultColor;
+			
+			buttonV.BackColor = defaultColor;
+			 
+			buttonW.BackColor = defaultColor;
+			
+			buttonX.BackColor = defaultColor;
+			 
+			buttonY.BackColor = defaultColor;
+			
+			buttonZ.BackColor = defaultColor;
+
+			buttonA.Enabled = true;
+
+			buttonB.Enabled = true;
+			
+			buttonC.Enabled = true;
+			
+			buttonD.Enabled = true;
+			
+			buttonE.Enabled = true;
+			
+			buttonF.Enabled = true;
+			
+			buttonG.Enabled = true;
+			
+			buttonH.Enabled = true;
+			
+			buttonI.Enabled = true;
+			
+			buttonJ.Enabled = true;
+			
+			buttonK.Enabled = true;
+			
+			buttonL.Enabled = true;
+			
+			buttonM.Enabled = true;
+			
+			buttonN.Enabled = true;
+			
+			buttonO.Enabled = true;
+			
+			buttonP.Enabled = true;
+			
+			buttonQ.Enabled = true;
+			
+			buttonR.Enabled = true;
+			
+			buttonS.Enabled = true;
+					
+			buttonT.Enabled = true;
+					
+			buttonU.Enabled = true;
+					
+			buttonV.Enabled = true;
+					
+			buttonW.Enabled = true;
+					
+			buttonX.Enabled = true;
+					
+			buttonY.Enabled = true;
+
+			buttonZ.Enabled = true;
+            #endregion
+
+            mysteryWord = FindNewWord(answer_words_file_path);
+			Debug.WriteLine(mysteryWord);
+		}
     }
 }
